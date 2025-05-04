@@ -31,8 +31,9 @@ def hitung_air(berat, aktivitas, cuaca, jenis_kelamin, usia):
     # Penyesuaian berdasarkan jenis kelamin
     if jenis_kelamin == "Pria":
         dasar += 200  # Pria cenderung butuh lebih banyak air
-    elif jenis_kelamin == "Wanita":
-dasar -= 100  # Wanita cenderung butuh sedikit lebih sedikit air
+    elif jenis_kelamin == "Wanita": 
+        dasar -= 100  
+    # Wanita cenderung butuh sedikit lebih sedikit air
 
     # Penyesuaian berdasarkan usia
     if usia < 18:
